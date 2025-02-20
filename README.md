@@ -50,3 +50,4 @@ This script automates the following tasks:
 Enjoy your new Linux desktop environment on ChromeOS! 🐧💻
 
 ## License
+This project is dedicated to the public domain. Feel free to use, modify, and distribute it as you wish, with no attribution required.
