@@ -8,6 +8,24 @@ This project was inspired by and based on the work of R. S. Ake. Check out her r
 - YouTube Channel: [Ruth Ake](https://www.youtube.com/@ruthake)
 - Book: [The Chromebook Guide to Google Linux: 2nd Edition](https://www.amazon.com/dp/B0C2RPWWMZ)
 
+- Complete install instructions from Ruth.
+
+    From the Terminal app:
+        sudo apt update -y
+        sudo apt dist-upgrade -y
+        sudo apt install task-lxde-desktop -y
+        sudo apt install xserver-xephyr -y
+        sudo apt install nano -y
+        sudo systemctl disable lightdm
+        sudo nano /usr/bin/gol
+            Xephyr -br -fullscreen -resizeable :20 &
+            sleep 5
+            DISPLAY=:20 startlxde &
+        Ctrl-O, Enter, and Ctrl-X to save the file and exit nano
+        sudo chmod +x /usr/bin/gol
+        gol
+  ==============================================================================
+
 R. S. Ake's book is an excellent resource for Chromebook users looking to explore the world of Linux. It offers insights into:
 
 - Installing Debian Linux on a Chromebook with just three clicks
