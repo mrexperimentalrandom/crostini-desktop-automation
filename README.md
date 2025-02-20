@@ -24,7 +24,6 @@ This project was inspired by and based on the work of R. S. Ake. Check out her r
         Ctrl-O, Enter, and Ctrl-X to save the file and exit nano
         sudo chmod +x /usr/bin/gol
         gol
-(end)
 
 R. S. Ake's book is an excellent resource for Chromebook users looking to explore the world of Linux. It offers insights into:
 
