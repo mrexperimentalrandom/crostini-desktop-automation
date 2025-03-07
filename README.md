@@ -1,14 +1,8 @@
 # crostini-desktop-automation
 This script automates the process of setting up a full Linux desktop environment on ChromeOS using Crostini.
 
-## Credit and Inspiration
 
-This project was inspired by and based on the work of R. S. Ake. Check out her resources:
-
-- YouTube Channel: [Ruth Ake](https://www.youtube.com/@ruthake)
-- Book: [The Chromebook Guide to Google Linux: 2nd Edition](https://www.amazon.com/dp/B0C2RPWWMZ)
-
-- Complete install instructions from Ruth.
+- Complete install instructions.
 
     From the Terminal app:
         sudo apt update -y
@@ -25,11 +19,6 @@ This project was inspired by and based on the work of R. S. Ake. Check out her r
         sudo chmod +x /usr/bin/gol
         gol
 
-R. S. Ake's book is an excellent resource for Chromebook users looking to explore the world of Linux. It offers insights into:
-
-- Installing Debian Linux on a Chromebook with just three clicks
-- Exploring a vast universe of Linux software for various tasks
-- Leveraging Chromebooks' optimized hardware and software for unmatched price performance
 
 ## Usage
 
